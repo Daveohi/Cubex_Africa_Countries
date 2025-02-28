@@ -27,7 +27,6 @@ class CountryRepository {
       return Country.fromJson(response.data[0]);
     } on DioException catch (_) {
       throw Exception('Failed to load country details: Connection Error');
-      // throw Exception('Failed to load country details: ${e.message}');
     }
   }
 }

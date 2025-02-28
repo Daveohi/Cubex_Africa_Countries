@@ -46,7 +46,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               centerTitle: true,
-              actions: [],
             ),
             body: CountryList(),
           ),
